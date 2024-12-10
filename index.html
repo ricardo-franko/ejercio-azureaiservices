@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Vuelos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Vuelos en Argentina</h1>
+        <form id="flight-form">
+            <label for="origin">Origen:</label>
+            <input type="text" id="origin" name="origin" required>
+            <label for="destination">Destino:</label>
+            <input type="text" id="destination" name="destination" required>
+            <label for="date">Fecha:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Buscar Vuelos</button>
+        </form>
+        <div id="results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
